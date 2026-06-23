@@ -1,0 +1,23 @@
+# kernel module build artifacts
+*.ko
+*.ko.zst
+*.o
+*.o.cmd
+.*.cmd
+*.mod
+*.mod.c
+*.mod.o
+*.symvers
+Module.symvers
+modules.order
+.tmp_versions/
+*.a
+built-in.a
+
+# editor/OS cruft
+*.swp
+*~
+.DS_Store
+
+# vendor Makefile resume marker
+._RESUME_
